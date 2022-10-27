@@ -29,6 +29,7 @@ let toggleNav = function () {
     else if (toggleNavStatus === true) {
         getSidebar.style.width = "0px";
         getSidebarTitle.style.opacity = "0";
+
         let arrayLength = getSidebarLinks.length;
         for (let i = 0; i < arrayLength; i++) {
             getSidebarLinks[i].style.opacity = "0";
